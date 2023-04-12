@@ -28,7 +28,6 @@ class Words:
 
 		corpus = self.remove_punct(corpus)
 		words = corpus.split()
-		print(words)
 		doc = [i for i in words if not i.isdigit()]
 
 		length = len(words);
